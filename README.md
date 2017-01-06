@@ -1,6 +1,8 @@
 # go-klarna
 
-[![Build Status](https://travis-ci.org/goglue/go-klarna.svg?branch=master)](https://travis-ci.org/goglue/go-klarna)
+[![Build Status](https://travis-ci.org/Flaconi/go-klarna.svg?branch=master)](https://travis-ci.org/Flaconi/go-klarna)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Flaconi/go-klarna)](https://goreportcard.com/report/github.com/Flaconi/go-klarna)
+[![GoDoc](https://godoc.org/github.com/Flaconi/go-klarna?status.svg)](https://godoc.org/github.com/Flaconi/go-klarna)
 
 ### About
 
