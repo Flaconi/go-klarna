@@ -27,7 +27,7 @@ Is the abstraction of `HTTP` client, required by each service in order to operat
 
 ```go
 import (
-        klarna "github.com/goglue/go-klarna"
+        klarna "github.com/Flaconi/go-klarna"
         "net/url"
         "time"
 )
@@ -55,7 +55,7 @@ import (
 func main() {
         // previous section ...
         client := klarna.NewClient(conf)
-        
+
         // payment service
         paymentSrv := klarna.NewPaymentSrv(client)
         err := paymentSrv.CancelExistingAuthorization("string-token")
@@ -70,7 +70,7 @@ func main() {
 - [x] Cover Checkout API service with tests
 - [x] Implement Payment API service
 - [x] Cover Payment API service with tests
-- [ ] Implement Order Management service
-- [ ] Cover Order Management service with tests
+- [x] Implement Order Management service
+- [x] Cover Order Management service with tests
 - [ ] Implement Checkout API Callbacks service
 - [ ] Cover Checkout API Callbacks service with tests
